@@ -1,0 +1,161 @@
+/* 讓所有內容都在中間的CSS */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 47px;
+}
+
+.personal h1{
+     font-size: 80px;   
+}
+.personal img{
+    width: 324px;
+    height: 324px;
+    margin: 48px 0px;
+}
+
+/* 個人資料區塊 */
+.profile h2{
+    font-size: 32px;
+}
+.profile span{
+    font-size: 24px;
+    color:#A00404;
+    padding-left: 16px;
+}
+
+.profile hr{
+    margin:16px 0px;
+}
+.profile p{
+    font-size: 24px;
+}
+
+.profile .profile-info{
+   line-height: 36px;
+   margin-bottom: 24px;
+}
+
+.profile .profile-skill{
+   line-height: 36px;
+   margin-bottom: 72px;
+}
+/* 學歷區塊 */
+.edu h2{
+   font-size: 32px;
+}
+.edu span{
+    font-size: 24px;
+    color:#A00404;
+    padding-left: 16px;
+}
+.edu hr{
+    margin: 16px 0px;
+}
+.edu p{
+    font-size: 24px;
+    line-height: 36px;
+}
+.edu{
+    margin-bottom: 72px;
+}
+/* 技能區塊 */
+.skill{
+    background-color: #415165;
+}
+.skill-inner{
+    width: 996px;
+    text-align: center;
+    color:#FFFFFF;
+    padding:24px 0px;
+}
+
+.skill-inner h2{
+    font-size: 32px;
+}
+.skill-inner span{
+    font-size: 24px;
+}
+.skill-inner hr{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.skill-inner ul {
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 24px;
+    line-height: 48px;
+    border-left: 1px solid #fff;
+}
+
+/* 工作經驗 */
+.work{
+    padding:72px;
+    line-height:3;
+}
+.work ul{
+    padding-left: 24px;
+    border-left:1px solid #96A9C4;
+    margin-left: 26px;
+}
+.work  h2{
+    font-size: 32px;
+}
+.work ul h3{
+    font-size: 24px;
+}
+
+.work span{
+    font-size: 24px;
+    margin-left: 16px;
+    color:#A00404;
+}
+.work hr{
+    margin: 16px 0px;
+}
+
+.work img{
+    width: 90px;
+    height: 90px;
+}
+.work ul p{
+    font-size: 20px;
+    line-height:30px;
+}
+
+/* 聯絡方式 */
+.contact{
+    background-color: #415165;
+}
+.contact-inner{
+    text-align: center;
+    letter-spacing:1px; 
+    color: #fff;
+}
+.contact-inner h2{
+    font-size: 32px;
+}
+.contact-inner span{
+    font-size: 24px;
+    padding-left: 16px;
+}
+.contact-inner hr{
+    margin: 16px 0px;
+}
+.contact-inner .contact-info{
+    font-size: 24px;
+    line-height:2;
+}
+.contact-inner .social{
+    display: flex;
+    justify-content:center;
+}
+.contact-inner .social li img{
+    width: 48px;
+    height: 48px;
+    padding-left: 24px;
+    padding-top: 16px;
+}
