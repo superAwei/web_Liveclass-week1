@@ -1,4 +1,20 @@
 /* 讓所有內容都在中間的CSS */
+/* 增加CSS複用性的 CSS 開始區塊 */
+/* 標題紅色標示 */
+.titlemark{
+    font-size: 24px;
+    color:#A00404;
+    padding-left: 16px;
+}
+/* 區塊標題 */
+.title{
+    font-size: 32px;
+}
+/* 分隔線 */
+hr{
+    margin:16px 0px;
+}
+/* 增加CSS複用性的 CSS區塊結束 */
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -15,18 +31,6 @@
 }
 
 /* 個人資料區塊 */
-.profile h2{
-    font-size: 32px;
-}
-.profile span{
-    font-size: 24px;
-    color:#A00404;
-    padding-left: 16px;
-}
-
-.profile hr{
-    margin:16px 0px;
-}
 .profile p{
     font-size: 24px;
 }
@@ -38,26 +42,17 @@
 
 .profile .profile-skill{
    line-height: 36px;
-   margin-bottom: 72px;
+   margin-bottom: 24px;
 }
 /* 學歷區塊 */
-.edu h2{
-   font-size: 32px;
-}
-.edu span{
-    font-size: 24px;
-    color:#A00404;
-    padding-left: 16px;
-}
-.edu hr{
-    margin: 16px 0px;
-}
+
 .edu p{
     font-size: 24px;
     line-height: 36px;
+    margin-bottom:24px;
 }
 .edu{
-    margin-bottom: 72px;
+    margin-bottom: 48px;
 }
 /* 技能區塊 */
 .skill{
@@ -70,16 +65,10 @@
     padding:24px 0px;
 }
 
-.skill-inner h2{
-    font-size: 32px;
-}
 .skill-inner span{
     font-size: 24px;
 }
-.skill-inner hr{
-    margin-top: 15px;
-    margin-bottom: 40px;
-}
+
 
 .skill-inner ul {
     width: 200px;
@@ -101,21 +90,10 @@
     border-left:1px solid #96A9C4;
     margin-left: 26px;
 }
-.work  h2{
-    font-size: 32px;
-}
-.work ul h3{
+.work ul h3,li{
     font-size: 24px;
 }
 
-.work span{
-    font-size: 24px;
-    margin-left: 16px;
-    color:#A00404;
-}
-.work hr{
-    margin: 16px 0px;
-}
 
 .work img{
     width: 90px;
@@ -142,20 +120,22 @@
     font-size: 24px;
     padding-left: 16px;
 }
-.contact-inner hr{
-    margin: 16px 0px;
-}
-.contact-inner .contact-info{
+
+.contact-inner .contact-info {
     font-size: 24px;
     line-height:2;
 }
-.contact-inner .social{
+.contact-inner .contact-info a{
+    text-decoration: none;
+    color:#fff;
+}
+.contact-inner .contact-info .social{
     display: flex;
     justify-content:center;
 }
-.contact-inner .social li img{
+.contact-inner .social img{
     width: 48px;
     height: 48px;
-    padding-left: 24px;
-    padding-top: 16px;
+    margin-left: 24px;
+    margin-top: 16px;
 }
